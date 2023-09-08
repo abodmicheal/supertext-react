@@ -1,6 +1,6 @@
-# React-SuperText
+# Supertext-react
 
-**React-SuperText** is a versatile React component library that provides three unique text animation and display components: `TypingText`, `LastWordTypingText`, and `Marquee`. With React-SuperText, you can effortlessly add captivating text effects to your web applications. This README will guide you through how to use each component and explain the available props and their functionalities.
+**Supertext-react** is a versatile React component library that provides three unique text animation and display components: `TypingText`, `LastWordTypingText`, and `Marquee`. With Supertext-react, you can effortlessly add captivating text effects to your web applications. This README will guide you through how to use each component and explain the available props and their functionalities.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,16 +12,16 @@
 
 ## Installation
 
-To use React-SuperText in your project, you can install it via npm or yarn:
+To use Supertext-react in your project, you can install it via npm or yarn:
 
 ```bash
-npm install react-supertext
+npm install Supertext-react
 ```
 
 or
 
 ```bash
-yarn add react-supertext
+yarn add Supertext-react
 ```
 
 ## Usage
@@ -32,10 +32,10 @@ yarn add react-supertext
 
 ```jsx
 import React from 'react';
-import { TypingText } from 'react-supertext';
+import { TypingText } from 'Supertext-react';
 
 function MyComponent() {
-  const texts = ["Hello, world!", "This is React-SuperText.", "Enjoy the animations!"];
+  const texts = ["Hello, world!", "This is Supertext-react.", "Enjoy the animations!"];
 
   return (
     <TypingText
@@ -84,7 +84,7 @@ function MyComponent() {
 
 ```jsx
 import React from 'react';
-import { LastWordTypingText } from 'react-supertext';
+import { LastWordTypingText } from 'Supertext-react';
 
 function MyComponent() {
   return (
@@ -134,7 +134,7 @@ function MyComponent() {
 
 ```jsx
 import React from 'react';
-import { Marquee } from 'react-supertext';
+import { Marquee } from 'Supertext-react';
 
 function MyComponent() {
   return (
@@ -178,9 +178,9 @@ function MyComponent() {
 8. `scrolldirection` (String):
    - Defines the direction of text scrolling. It can be either `"right"` or `"left"`.
 
-These props allow you to customize the behavior and appearance of each React-SuperText component according to your specific requirements.
+These props allow you to customize the behavior and appearance of each Supertext-react component according to your specific requirements.
 
 ## Examples
 For more examples and usage details, you can refer to the demo link procided bellow.
 
-Enjoy using React-SuperText to add engaging text animations and effects to your React applications! If you encounter any issues or have suggestions for improvement, please feel free to open an issue on the GitHub repository.
+Enjoy using Supertext-react to add engaging text animations and effects to your React applications! If you encounter any issues or have suggestions for improvement, please feel free to open an issue on the GitHub repository.
