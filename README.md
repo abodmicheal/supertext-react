@@ -181,6 +181,6 @@ function MyComponent() {
 These props allow you to customize the behavior and appearance of each Supertext-react component according to your specific requirements.
 
 ## Examples
-For more examples and usage details, you can refer to the demo link procided bellow.
+For more examples and usage details, you can refer to the demo link provided bellow.
 
 Enjoy using Supertext-react to add engaging text animations and effects to your React applications! If you encounter any issues or have suggestions for improvement, please feel free to open an issue on the GitHub repository.
