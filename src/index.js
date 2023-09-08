@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useInView } from 'react-intersection-observer'
-// TypingText.js
+// TypingText
 const TypingText = ({
   textArray,
   typingSpeed,
