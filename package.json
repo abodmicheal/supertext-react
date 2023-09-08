@@ -1,6 +1,6 @@
 {
   "name": "supertext-react",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "SuperText-react is a versatile React component library that provides three unique text animation and display components: TypingText, LastWordTypingText, and Marquee. With SuperText-react, you can effortlessly add captivating text effects to your web applications. This README will guide you through how to use each component and explain the available props and their functionalities.",
   "author": "abodmicheal",
   "license": "MIT",

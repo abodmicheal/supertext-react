@@ -1,7 +1,6 @@
-// TypingText.js
 import React, { useState, useEffect } from 'react'
 import { useInView } from 'react-intersection-observer'
-
+// TypingText.js
 const TypingText = ({
   textArray,
   typingSpeed,
@@ -57,12 +56,11 @@ const TypingText = ({
 
   return (
     <div ref={ref} className={className}>
-      {/* Apply className to the outer div */}
       <p style={textStyle}>{currentText}</p>
     </div>
   )
 }
-
+//LastWordTypingText
 const LastWordTypingText = ({
   text,
   typingSpeed,
@@ -116,7 +114,7 @@ const LastWordTypingText = ({
     </div>
   )
 }
-
+//Marquee
 const Marquee = ({
   text,
   speed,
@@ -131,7 +129,7 @@ const Marquee = ({
   const [isPaused, setIsPaused] = useState(false)
 
   useEffect(() => {
-    const textWidth = text.length * 10 // Adjust the factor for your desired spacing
+    const textWidth = text.length * 10
 
     const scrollText = () => {
       if (!isPaused) {
@@ -146,12 +144,12 @@ const Marquee = ({
               return prevPosition - speed
             }
           } else if (scrolldirection === 'right') {
-            // Scroll to the right
+            // For the right
             if (prevPosition >= window.innerWidth) {
-              // Reset to the starting position when it goes out of view
+              // Reset to ...
               return -textWidth
             } else {
-              // Move the text to the right
+              // Move text to the right
               return prevPosition + speed
             }
           }
@@ -160,7 +158,7 @@ const Marquee = ({
       }
     }
 
-    const intervalId = setInterval(scrollText, 16) // 60 FPS
+    const intervalId = setInterval(scrollText, 16)
 
     return () => {
       clearInterval(intervalId)
